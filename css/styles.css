@@ -510,52 +510,14 @@ html.js .logo-img-light {
   max-width: min(34rem, 100%);
 }
 
-/* Scaled header lockup: mark 1.2 / gap 0.55 / total 8.5 → wordmark stays ~22rem */
 .hero-brand {
-  display: flex;
-  align-items: center;
-  gap: calc(100% * 0.55 / 8.5);
   margin: 0 0 0.85rem;
-  width: min(100%, 27.7rem);
+  width: min(100%, 22rem);
   animation: rise 1s var(--ease) both;
 }
 
-.hero-mark {
-  position: relative;
-  flex: 0 0 calc(100% * 1.2 / 8.5);
-  width: calc(100% * 1.2 / 8.5);
-  display: grid;
-  place-items: center;
-  pointer-events: none;
-}
-
-.hero-sprig,
-.hero-olive {
-  grid-area: 1 / 1;
-  display: block;
-  margin: 0;
-  height: auto;
-  will-change: opacity, transform;
-}
-
-.hero-sprig {
-  width: 175%;
-  max-width: none;
-  opacity: calc(0.92 * (1 - var(--hero-exit, 0)));
-  transform: scale(calc(1 - var(--hero-exit, 0) * 0.55)) rotate(-8deg);
-  filter: drop-shadow(0 2px 16px rgba(0, 0, 0, 0.35));
-}
-
-.hero-olive {
-  width: 100%;
-  opacity: var(--hero-exit, 0);
-  transform: scale(calc(0.55 + var(--hero-exit, 0) * 0.45));
-}
-
 .hero-wordmark {
-  flex: 1 1 auto;
-  width: auto;
-  min-width: 0;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0;
@@ -615,14 +577,7 @@ html.js .logo-img-light {
   }
 
   .hero-brand {
-    /* Match mobile header lockup: 1.1 / 0.45 / 7.25 */
-    gap: calc(100% * 0.45 / 7.25);
-    width: min(100%, 22.7rem);
-  }
-
-  .hero-mark {
-    flex-basis: calc(100% * 1.1 / 7.25);
-    width: calc(100% * 1.1 / 7.25);
+    width: min(100%, 18rem);
   }
 
   .logo {
@@ -658,7 +613,7 @@ html.js .logo-img-light {
 
 @media (max-width: 360px) {
   .hero-brand {
-    width: min(100%, 20rem);
+    width: min(100%, 16rem);
   }
 
   .hero-place {
@@ -1226,8 +1181,6 @@ html.js .reveal.is-in {
   .hero-kicker,
   .hero-actions,
   .hero-scroll,
-  .hero-sprig,
-  .hero-olive,
   .logo-mark,
   html.js .logo-mark,
   html.js .reveal {
@@ -1235,9 +1188,5 @@ html.js .reveal.is-in {
     transition: none !important;
     opacity: 1 !important;
     transform: none !important;
-  }
-
-  .hero-olive {
-    opacity: 0 !important;
   }
 }
