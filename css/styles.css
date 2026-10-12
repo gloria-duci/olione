@@ -192,7 +192,6 @@ em {
   position: relative;
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
   width: 8.5rem;
   text-decoration: none;
 }
@@ -201,28 +200,8 @@ em {
   color: inherit;
 }
 
-.logo-mark {
-  width: 1.2rem;
-  height: auto;
-  flex: 0 0 auto;
-  display: block;
-  transform-origin: center;
-  transform: rotate(calc(var(--scroll, 0) * 180deg));
-  transition: opacity 0.3s var(--ease);
-}
-
-/* Header lockup (olive + wordmark) only after leaving the hero. */
-html.js .logo-mark {
-  opacity: 0;
-}
-
-html.js .site-header.is-scrolled .logo-mark,
-html.js .site-header.is-open .logo-mark {
-  opacity: 1;
-}
-
 .logo-img {
-  width: calc(100% - 1.75rem);
+  width: 100%;
   height: auto;
   display: block;
   transition: opacity 0.3s var(--ease);
@@ -235,10 +214,10 @@ html.js .logo-img-light {
 
 .logo-img-dark {
   position: absolute;
-  left: calc(1.2rem + 0.55rem);
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: calc(100% - 1.75rem);
+  width: 100%;
   opacity: 0;
 }
 
@@ -582,20 +561,6 @@ html.js .logo-img-light {
 
   .logo {
     width: 7.25rem;
-    gap: 0.45rem;
-  }
-
-  .logo-mark {
-    width: 1.1rem;
-  }
-
-  .logo-img,
-  .logo-img-dark {
-    width: calc(100% - 1.55rem);
-  }
-
-  .logo-img-dark {
-    left: calc(1.1rem + 0.45rem);
   }
 
   .hero-scroll {
@@ -1089,24 +1054,11 @@ html.js .logo-img-light {
   gap: 1.5rem;
 }
 
-.footer-lockup {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.85rem;
-}
-
-.footer-mark {
-  width: 1.15rem;
-  height: auto;
-  flex: 0 0 auto;
-  display: block;
-}
-
 .footer-logo {
   display: block;
   width: 7.5rem;
   height: auto;
+  margin-bottom: 0.85rem;
 }
 
 .footer-brand p,
@@ -1181,8 +1133,6 @@ html.js .reveal.is-in {
   .hero-kicker,
   .hero-actions,
   .hero-scroll,
-  .logo-mark,
-  html.js .logo-mark,
   html.js .reveal {
     animation: none !important;
     transition: none !important;
