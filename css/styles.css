@@ -684,6 +684,10 @@ html.js .logo-img-light {
   margin-inline: auto;
 }
 
+.section-figure-portrait figcaption {
+  text-align: center;
+}
+
 .section-figure figcaption,
 .care-figure figcaption,
 .product-visual figcaption {
