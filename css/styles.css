@@ -684,12 +684,26 @@ html.js .logo-img-light {
   margin-inline: auto;
 }
 
-.section-figure figcaption {
+.section-figure figcaption,
+.care-figure figcaption,
+.product-visual figcaption {
   margin-top: 0.75rem;
   font-size: 0.8rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-soft);
+}
+
+.care-figure {
+  margin: 0;
+}
+
+.care-figure figcaption {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.product-visual figcaption {
+  margin-top: 0.75rem;
 }
 
 @media (min-width: 900px) {
@@ -730,8 +744,9 @@ html.js .logo-img-light {
 }
 
 .product-visual-light {
-  background: var(--paper);
+  background: transparent;
   padding: 0;
+  margin: 0;
 }
 
 .product-visual img {
