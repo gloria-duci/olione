@@ -43,9 +43,9 @@
         "Dopo la raccolta, ogni sera, le portiamo al frantoio per la frangitura e l'estrazione dell'olio: tempi brevi, per custodire la qualità dell'extravergine.",
       "harvest.altWork": "Raccolta delle olive a Predore: reti, cassette e abbacco in uliveto",
       "harvest.altCrates": "Cassette di olive appena raccolte sull'uliveto terrazzato di Predore",
-      "harvest.caption": "La raccolta",
+      "harvest.caption": "Predore - La raccolta",
       "mill.eyebrow": "Al frantoio",
-      "mill.caption": "Al frantoio",
+      "mill.caption": "Al frantoio - Estrazione",
       "mill.title": "Dalle olive all'olio",
       "mill.lead":
         "Un percorso meccanico, senza intermedi chimici: dalla pulizia del frutto fino alla filtrazione, ogni passaggio prepara un extravergine limpido e riconoscibile.",
@@ -68,7 +68,7 @@
       "products.cta": "Ordina Olione",
       "products.alt":
         "Bottiglia Olione di olio EVO — extravergine di oliva italiano",
-      "products.caption": "Olione · 0,5 l",
+      "products.caption": "Olione - Bottiglia 0,5 l",
       "contact.eyebrow": "Contatti",
       "contact.title": "Ordina dal produttore",
       "contact.intro":
@@ -150,9 +150,9 @@
         "After harvest, each evening, we take them to the mill for crushing and extraction: short times, to protect extra virgin quality.",
       "harvest.altWork": "Olive harvest in Predore: nets, crates and pole harvester in the grove",
       "harvest.altCrates": "Crates of freshly picked olives on the terraced grove in Predore",
-      "harvest.caption": "The harvest",
+      "harvest.caption": "Predore - The harvest",
       "mill.eyebrow": "The mill",
-      "mill.caption": "At the mill",
+      "mill.caption": "At the mill - Extraction",
       "mill.title": "From olives to oil",
       "mill.lead":
         "A mechanical process, with no chemical intermediaries: from washing the fruit to filtration, each step prepares a clear, recognisable extra virgin oil.",
@@ -175,7 +175,7 @@
       "products.cta": "Order Olione",
       "products.alt":
         "Olione bottle of Italian EVO — extra virgin olive oil",
-      "products.caption": "Olione · 0.5 l",
+      "products.caption": "Olione - 0.5 l bottle",
       "contact.eyebrow": "Contact",
       "contact.title": "Order from the producer",
       "contact.intro":
