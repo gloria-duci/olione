@@ -3,12 +3,12 @@
   const strings = {
     it: {
       "meta.title":
-        "Olione | Olio extravergine del Sebino · Predore · Lago d'Iseo",
+        "Olione | Olio EVO del Sebino · Predore · Lago d'Iseo",
       "meta.description":
-        "Olione è olio extravergine di oliva del Sebino, da Predore sul Lago d'Iseo. Bottiglia da 0,5 l dal produttore Carlo Duci, con spedizione in tutta Italia.",
-      "meta.ogTitle": "Olione | Olio extravergine del Sebino",
+        "Olione è olio EVO (extravergine di oliva) del Sebino, da Predore sul Lago d'Iseo. Bottiglia da 0,5 l dal produttore Carlo Duci, con spedizione in tutta Italia.",
+      "meta.ogTitle": "Olione | Olio EVO del Sebino",
       "meta.ogDescription":
-        "Olio extravergine di oliva del Sebino, da Predore sul Lago d'Iseo. Dal produttore, bottiglia 0,5 l, spedizione in Italia.",
+        "Olio EVO del Sebino, da Predore sul Lago d'Iseo. Extravergine di oliva dal produttore, bottiglia 0,5 l, spedizione in Italia.",
       "skip": "Vai al contenuto",
       "nav.label": "Principale",
       "nav.grove": "L'uliveto",
@@ -21,7 +21,7 @@
       "hero.label": "Home page",
       "hero.alt": "Predore sul Lago d'Iseo, sponda bergamasca del Sebino",
       "hero.place": "Predore · Lago d'Iseo",
-      "hero.kicker": "Olio extravergine dal produttore",
+      "hero.kicker": "Olio EVO dal produttore",
       "hero.ctaProducts": "I nostri prodotti",
       "hero.ctaOrder": "Ordina",
       "hero.scroll": "Scorri",
@@ -54,9 +54,9 @@
       "mill.step4": "Estrazione",
       "mill.step5": "Separazione e filtrazione",
       "products.eyebrow": "I nostri prodotti",
-      "products.title": "Olio extravergine di oliva di qualità superiore",
+      "products.title": "Olio EVO di qualità superiore",
       "products.p1":
-        "Olione è un olio extravergine di oliva italiano di categoria superiore, ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici.",
+        "Olione è un olio EVO — extravergine di oliva italiano di categoria superiore — ottenuto direttamente dalle olive e unicamente mediante procedimenti meccanici.",
       "products.slowfood":
         'Il nostro olio è segnalato dalla “Guida agli Extra Vergini” di <a href="https://www.slowfoodeditore.it/it/guide-slow/guida-agli-extravergini-2026-1162.html" target="_blank" rel="noopener noreferrer"><strong>Slow Food Editore</strong></a>.',
       "products.p2":
@@ -65,7 +65,7 @@
         "Lo produciamo noi e lo spediamo in tutta Italia. Scrivici per ordinare la bottiglia della campagna in corso.",
       "products.cta": "Ordina Olione",
       "products.alt":
-        "Bottiglia Olione di olio extravergine di oliva italiano",
+        "Bottiglia Olione di olio EVO — extravergine di oliva italiano",
       "contact.eyebrow": "Contatti",
       "contact.title": "Ordina dal produttore",
       "contact.intro":
@@ -87,7 +87,7 @@
       "form.offline":
         "Connessione non disponibile. Riprova o usa email/telefono.",
       "footer.place": "Predore · Bergamo · Lago d'Iseo",
-      "footer.line": "Olio extravergine di oliva · Spedizione in Italia",
+      "footer.line": "Olio EVO · Spedizione in Italia",
       "footer.copyright": "Carlo Duci · Olivicoltura",
       "footer.privacy": "Privacy e cookie",
       "footer.cookies": "Preferenze cookie",
@@ -101,18 +101,18 @@
       "cookie.accept": "Accetta analitica",
       "privacy.metaTitle": "Privacy e cookie | Olione",
       "privacy.metaDescription":
-        "Informativa privacy e cookie di Olione — Carlo Duci, olio extravergine del Sebino.",
+        "Informativa privacy e cookie di Olione — Carlo Duci, olio EVO del Sebino.",
       "privacy.back": "Torna al sito",
       "privacy.title": "Privacy e cookie",
     },
     en: {
       "meta.title":
-        "Olione | Extra virgin olive oil from Lake Iseo · Predore, Bergamo",
+        "Olione | EVO olive oil from Lake Iseo · Predore, Bergamo",
       "meta.description":
-        "Olione is extra virgin olive oil from the Sebino, produced in Predore on Lake Iseo. 0.5 l bottle from grower Carlo Duci, shipped throughout Italy.",
-      "meta.ogTitle": "Olione | Extra virgin olive oil from Lake Iseo",
+        "Olione is EVO (extra virgin olive oil) from the Sebino, produced in Predore on Lake Iseo. 0.5 l bottle from grower Carlo Duci, shipped throughout Italy.",
+      "meta.ogTitle": "Olione | EVO olive oil from Lake Iseo",
       "meta.ogDescription":
-        "Extra virgin olive oil from the Sebino, Predore on Lake Iseo. From the producer, 0.5 l bottle, shipped in Italy.",
+        "EVO olive oil from the Sebino, Predore on Lake Iseo. Extra virgin from the producer, 0.5 l bottle, shipped in Italy.",
       "skip": "Skip to content",
       "nav.label": "Primary",
       "nav.grove": "The grove",
@@ -125,7 +125,7 @@
       "hero.label": "Home",
       "hero.alt": "Predore on Lake Iseo, Bergamo shore of the Sebino",
       "hero.place": "Predore · Lake Iseo",
-      "hero.kicker": "Extra virgin olive oil from the producer",
+      "hero.kicker": "EVO olive oil from the producer",
       "hero.ctaProducts": "Our products",
       "hero.ctaOrder": "Order",
       "hero.scroll": "Scroll",
@@ -158,9 +158,9 @@
       "mill.step4": "Extraction",
       "mill.step5": "Separation and filtration",
       "products.eyebrow": "Our products",
-      "products.title": "Superior-category extra virgin olive oil",
+      "products.title": "Superior-category EVO olive oil",
       "products.p1":
-        "Olione is Italian extra virgin olive oil of superior category, obtained directly from olives and solely by mechanical means.",
+        "Olione is Italian EVO — extra virgin olive oil of superior category — obtained directly from olives and solely by mechanical means.",
       "products.slowfood":
         'Our oil is listed in <a href="https://www.slowfoodeditore.it/it/guide-slow/guida-agli-extravergini-2026-1162.html" target="_blank" rel="noopener noreferrer"><strong>Slow Food Editore</strong></a>’s “Guida agli Extra Vergini”.',
       "products.p2":
@@ -169,7 +169,7 @@
         "We produce it ourselves and ship throughout Italy. Write to us to order this season’s bottle.",
       "products.cta": "Order Olione",
       "products.alt":
-        "Olione bottle of Italian extra virgin olive oil",
+        "Olione bottle of Italian EVO — extra virgin olive oil",
       "contact.eyebrow": "Contact",
       "contact.title": "Order from the producer",
       "contact.intro":
@@ -191,7 +191,7 @@
       "form.offline":
         "No connection. Please try again, or use email or phone.",
       "footer.place": "Predore · Bergamo · Lake Iseo",
-      "footer.line": "Extra virgin olive oil · Shipping in Italy",
+      "footer.line": "EVO olive oil · Shipping in Italy",
       "footer.copyright": "Carlo Duci · Olive growing",
       "footer.privacy": "Privacy & cookies",
       "footer.cookies": "Cookie preferences",
@@ -205,7 +205,7 @@
       "cookie.accept": "Accept analytics",
       "privacy.metaTitle": "Privacy & cookies | Olione",
       "privacy.metaDescription":
-        "Privacy and cookie notice for Olione — Carlo Duci, extra virgin olive oil from Lake Iseo.",
+        "Privacy and cookie notice for Olione — Carlo Duci, EVO olive oil from Lake Iseo.",
       "privacy.back": "Back to the site",
       "privacy.title": "Privacy & cookies",
     },

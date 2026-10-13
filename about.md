@@ -1,8 +1,8 @@
-﻿# Olione — olio extravergine di oliva
+﻿# Olione — olio EVO (extravergine di oliva)
 
 ## In breve
 
-Olione è un olio extravergine di oliva del Sebino: italiano di categoria superiore, prodotto da Carlo Duci a Predore, sul Lago d'Iseo (provincia di Bergamo).
+Olione è un olio EVO del Sebino: extravergine di oliva italiano di categoria superiore, prodotto da Carlo Duci a Predore, sul Lago d'Iseo (provincia di Bergamo).
 
 - Formato: bottiglia da 0,5 litri
 - Origine: terrazzamenti di Predore, Sebino / Lago d'Iseo
