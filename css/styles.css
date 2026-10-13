@@ -675,7 +675,7 @@ html.js .logo-img-light {
 
 .section-figure-portrait img {
   width: 100%;
-  max-width: min(100%, 34.32rem);
+  max-width: min(100%, 36.036rem);
   height: auto;
   aspect-ratio: auto;
   object-fit: cover;
@@ -716,7 +716,7 @@ html.js .logo-img-light {
   }
 
   .section-grid-reverse {
-    grid-template-columns: 1.05fr 1fr;
+    grid-template-columns: 1.164fr 1fr;
   }
 
   .section-grid-reverse .section-copy {
