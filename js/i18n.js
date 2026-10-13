@@ -89,9 +89,21 @@
       "footer.place": "Predore · Bergamo · Lago d'Iseo",
       "footer.line": "Olio extravergine di oliva · Spedizione in Italia",
       "footer.copyright": "Carlo Duci · Olivicoltura",
+      "footer.privacy": "Privacy e cookie",
+      "footer.cookies": "Preferenze cookie",
       "legal.kind": "impresa individuale agricola",
       "legal.seat": "Sede",
       "legal.register": "Registro Imprese di Bergamo",
+      "cookie.label": "Preferenze cookie",
+      "cookie.text":
+        'Usiamo cookie tecnici e, solo con il tuo consenso, cookie di analitica (Google Analytics 4) per capire come viene usato il sito. <a href="privacy.html">Privacy e cookie</a>.',
+      "cookie.reject": "Solo necessari",
+      "cookie.accept": "Accetta analitica",
+      "privacy.metaTitle": "Privacy e cookie | Olione",
+      "privacy.metaDescription":
+        "Informativa privacy e cookie di Olione — Carlo Duci, olio extravergine del Sebino.",
+      "privacy.back": "Torna al sito",
+      "privacy.title": "Privacy e cookie",
     },
     en: {
       "meta.title":
@@ -181,9 +193,21 @@
       "footer.place": "Predore · Bergamo · Lake Iseo",
       "footer.line": "Extra virgin olive oil · Shipping in Italy",
       "footer.copyright": "Carlo Duci · Olive growing",
+      "footer.privacy": "Privacy & cookies",
+      "footer.cookies": "Cookie preferences",
       "legal.kind": "sole agricultural proprietor",
       "legal.seat": "Registered office",
       "legal.register": "Bergamo Company Register",
+      "cookie.label": "Cookie preferences",
+      "cookie.text":
+        'We use technical cookies and, only with your consent, analytics cookies (Google Analytics 4) to understand how the site is used. <a href="privacy.html">Privacy & cookies</a>.',
+      "cookie.reject": "Necessary only",
+      "cookie.accept": "Accept analytics",
+      "privacy.metaTitle": "Privacy & cookies | Olione",
+      "privacy.metaDescription":
+        "Privacy and cookie notice for Olione — Carlo Duci, extra virgin olive oil from Lake Iseo.",
+      "privacy.back": "Back to the site",
+      "privacy.title": "Privacy & cookies",
     },
   };
 
@@ -218,8 +242,14 @@
   const apply = (lang) => {
     document.documentElement.lang = lang;
     document.documentElement.dataset.lang = lang;
-    document.title = t(lang, "meta.title");
-    setMeta('meta[name="description"]', "content", t(lang, "meta.description"));
+
+    const isPrivacy = document.body.dataset.page === "privacy";
+    document.title = t(lang, isPrivacy ? "privacy.metaTitle" : "meta.title");
+    setMeta(
+      'meta[name="description"]',
+      "content",
+      t(lang, isPrivacy ? "privacy.metaDescription" : "meta.description")
+    );
     setMeta('meta[property="og:title"]', "content", t(lang, "meta.ogTitle"));
     setMeta(
       'meta[property="og:description"]',
@@ -254,6 +284,9 @@
     });
     document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
       el.setAttribute("alt", t(lang, el.getAttribute("data-i18n-alt")));
+    });
+    document.querySelectorAll("[data-lang-panel]").forEach((el) => {
+      el.hidden = el.getAttribute("data-lang-panel") !== lang;
     });
 
     const subject = document.querySelector('input[name="_subject"]');

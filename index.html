@@ -67,6 +67,26 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Analytics (Consent Mode v2: blocked until cookie choice) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500,
+      });
+      gtag("js", new Date());
+      gtag("config", "G-SNEWBDWGVL");
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SNEWBDWGVL"
+    ></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -474,6 +494,11 @@
         </div>
         <div class="footer-meta">
           <p>© <span data-year></span> <span data-i18n="footer.copyright">Carlo Duci · Olivicoltura</span></p>
+          <p class="footer-links">
+            <a href="privacy.html" data-i18n="footer.privacy">Privacy e cookie</a>
+            <span aria-hidden="true">·</span>
+            <a href="#cookie" data-cookie-open data-i18n="footer.cookies">Preferenze cookie</a>
+          </p>
           <address class="footer-legal">
             <p>
               <strong>Duci Carlo</strong> —
@@ -496,7 +521,34 @@
       </div>
     </footer>
 
+    <div
+      class="cookie-banner"
+      data-cookie-banner
+      role="dialog"
+      aria-modal="false"
+      data-i18n-aria="cookie.label"
+      aria-label="Cookie"
+      hidden
+    >
+      <div class="cookie-inner">
+        <p class="cookie-text" data-i18n-html="cookie.text">
+          Usiamo cookie tecnici e, solo con il tuo consenso, cookie di analitica
+          (Google Analytics 4) per capire come viene usato il sito.
+          <a href="privacy.html">Privacy e cookie</a>.
+        </p>
+        <div class="cookie-actions">
+          <button class="btn btn-ghost cookie-reject" type="button" data-cookie-reject data-i18n="cookie.reject">
+            Solo necessari
+          </button>
+          <button class="btn btn-primary" type="button" data-cookie-accept data-i18n="cookie.accept">
+            Accetta analitica
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="js/i18n.js" defer></script>
     <script src="js/main.js" defer></script>
+    <script src="js/cookies.js" defer></script>
   </body>
 </html>
