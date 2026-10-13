@@ -675,7 +675,7 @@ html.js .logo-img-light {
 
 .section-figure-portrait img {
   width: 100%;
-  max-width: min(100%, 31.2rem);
+  max-width: min(100%, 34.32rem);
   height: auto;
   aspect-ratio: auto;
   object-fit: cover;
