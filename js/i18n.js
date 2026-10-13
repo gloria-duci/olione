@@ -152,7 +152,7 @@
       "harvest.altCrates": "Crates of freshly picked olives on the terraced grove in Predore",
       "harvest.caption": "The harvest",
       "mill.eyebrow": "The mill",
-      "mill.caption": "The mill",
+      "mill.caption": "At the mill",
       "mill.title": "From olives to oil",
       "mill.lead":
         "A mechanical process, with no chemical intermediaries: from washing the fruit to filtration, each step prepares a clear, recognisable extra virgin oil.",
