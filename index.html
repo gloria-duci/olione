@@ -74,18 +74,10 @@
     <link
       rel="preload"
       as="image"
-      type="image/jpeg"
-      href="assets/photos/predore-lago-iseo-mobile.jpg"
-      media="(max-width: 720px)"
-      fetchpriority="high"
-    />
-    <link
-      rel="preload"
-      as="image"
-      type="image/jpeg"
-      imagesrcset="assets/photos/predore-lago-iseo-1280.jpg 1280w, assets/photos/predore-lago-iseo-1920.jpg 1920w, assets/photos/predore-lago-iseo-2560.jpg 2560w, assets/photos/predore-lago-iseo-3840.jpg 3840w, assets/photos/predore-lago-iseo-4000.jpg 4000w"
+      type="image/avif"
+      imagesrcset="assets/photos/predore-lago-iseo-mobile-1266.avif 1266w, assets/photos/predore-lago-iseo-mobile.avif 1688w"
       imagesizes="100vw"
-      media="(min-width: 721px)"
+      media="(max-width: 720px)"
       fetchpriority="high"
     />
     <!-- Google Analytics stub only; gtag/js loads after cookie accept -->
@@ -203,17 +195,40 @@
           <picture>
             <source
               media="(max-width: 720px)"
+              type="image/avif"
+              srcset="assets/photos/predore-lago-iseo-mobile-1266.avif 1266w, assets/photos/predore-lago-iseo-mobile.avif 1688w"
+              sizes="100vw"
+            />
+            <source
+              media="(max-width: 720px)"
+              type="image/webp"
+              srcset="assets/photos/predore-lago-iseo-mobile-1266.webp 1266w, assets/photos/predore-lago-iseo-mobile.webp 1688w"
+              sizes="100vw"
+            />
+            <source
+              media="(max-width: 720px)"
               type="image/jpeg"
-              srcset="assets/photos/predore-lago-iseo-mobile.jpg"
+              srcset="assets/photos/predore-lago-iseo-mobile-1266.jpg 1266w, assets/photos/predore-lago-iseo-mobile.jpg 1688w"
+              sizes="100vw"
+            />
+            <source
+              type="image/avif"
+              srcset="assets/photos/predore-lago-iseo-1280.avif 1280w, assets/photos/predore-lago-iseo-1920.avif 1920w, assets/photos/predore-lago-iseo-2560.avif 2560w, assets/photos/predore-lago-iseo-3840.avif 3840w"
+              sizes="100vw"
+            />
+            <source
+              type="image/webp"
+              srcset="assets/photos/predore-lago-iseo-1280.webp 1280w, assets/photos/predore-lago-iseo-1920.webp 1920w, assets/photos/predore-lago-iseo-2560.webp 2560w, assets/photos/predore-lago-iseo-3840.webp 3840w"
+              sizes="100vw"
             />
             <img
               src="assets/photos/predore-lago-iseo.jpg"
-              srcset="assets/photos/predore-lago-iseo-1280.jpg 1280w, assets/photos/predore-lago-iseo-1920.jpg 1920w, assets/photos/predore-lago-iseo-2560.jpg 2560w, assets/photos/predore-lago-iseo-3840.jpg 3840w, assets/photos/predore-lago-iseo-4000.jpg 4000w"
+              srcset="assets/photos/predore-lago-iseo-1280.jpg 1280w, assets/photos/predore-lago-iseo-1920.jpg 1920w, assets/photos/predore-lago-iseo-2560.jpg 2560w, assets/photos/predore-lago-iseo-3840.jpg 3840w"
               sizes="100vw"
               data-i18n-alt="hero.alt"
               alt="Predore sul Lago d'Iseo, sponda bergamasca del Sebino"
-              width="2560"
-              height="1440"
+              width="1920"
+              height="1080"
               fetchpriority="high"
               decoding="async"
             />
