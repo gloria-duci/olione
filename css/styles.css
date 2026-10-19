@@ -547,6 +547,8 @@ html.js .logo-img-light {
   .hero-media img {
     transform: none;
     animation: none;
+    /* Mobile uses a portrait crop; keep focus near the lake/shore */
+    object-position: center 42%;
   }
 }
 
