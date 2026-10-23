@@ -321,6 +321,32 @@ html.js .logo-img-light {
   flex: 0 0 auto;
 }
 
+.header-social {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.header-social .social-link {
+  width: 1.75rem;
+  height: 1.75rem;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.header-social .social-link:hover {
+  color: #fff;
+}
+
+.site-header.is-scrolled .header-social .social-link,
+.site-header.is-open .header-social .social-link {
+  color: var(--ink-soft);
+}
+
+.site-header.is-scrolled .header-social .social-link:hover,
+.site-header.is-open .header-social .social-link:hover {
+  color: var(--ink);
+}
+
 .lang {
   display: flex;
   align-items: center;
@@ -1175,6 +1201,18 @@ html.js .logo-img-light {
   margin-top: 0.25rem;
 }
 
+.footer-social {
+  margin-top: 0.85rem;
+}
+
+.footer-social .social-link {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.footer-social .social-link:hover {
+  color: #fff;
+}
+
 .footer-meta {
   text-align: right;
   max-width: 28rem;
@@ -1337,6 +1375,14 @@ html.js .logo-img-light {
 
 .privacy-page .lang-sep {
   color: rgba(17, 17, 17, 0.28);
+}
+
+.privacy-page .header-social .social-link {
+  color: var(--ink-soft);
+}
+
+.privacy-page .header-social .social-link:hover {
+  color: var(--ink);
 }
 
 .privacy-page .nav-toggle-line,
