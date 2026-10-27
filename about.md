@@ -29,5 +29,5 @@ Contattare il produttore per disponibilità e ordini:
 
 ## Social
 
-- Facebook: https://www.facebook.com/olioevopredore
-- Instagram: https://www.instagram.com/olioevopredore
+- Facebook: https://www.facebook.com/olionepredore/
+- Instagram: https://www.instagram.com/olione_predore
